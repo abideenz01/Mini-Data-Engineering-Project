@@ -52,13 +52,13 @@ Returns structured dictionary
 🧪 Example Run
 ✅ Valid Input
 Input:
-    johndoe@gmail.com
+    abideenz095@gmail.com
 
 Output:
-    {'username': 'johndoe', 'domain': 'gmail.com'}
+    {'username': 'abideenz', 'domain': 'gmail.com'}
 ❌ Invalid Input
 Input:
-    johndoegmailcom
+    abideenz095com
 
 Output:
     Invalid Email: Log updated
