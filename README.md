@@ -65,18 +65,21 @@ Output:
 📁 Log File Example
 Invalid Email: Please enter a valid email
 Invalid Email: Please enter a valid email
-💻 Code Highlights
-🔹 Pipeline Orchestration
+## 💻 Code Highlights
+## 🔹 Pipeline Orchestration
 def pipeline(Email):
     if not validate_email(user_email):
         write_log("Invalid Email: Please enter a valid email")
     else:
         cleaned_Email = clean_the_email(user_email)
         print(cleaned_Email)
-🔹 Validation Logic
+
+        
+## 🔹 Validation Logic
 def validate_email(email):
     return '@' in email and '.' in email
-🔹 Transformation Logic
+    
+## 🔹 Transformation Logic
 def clean_the_email(email):
     clean_email = email.strip().lower()
     username, domain = clean_email.split('@')
